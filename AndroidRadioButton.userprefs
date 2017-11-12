@@ -1,0 +1,17 @@
+﻿<Properties StartupConfiguration="{2FEBCE49-68CC-4766-B4A6-2E23BF1B14B9}|Default">
+  <MonoDevelop.Ide.Workbench>
+    <Files>
+      <File FileName="AndroidRadioButton/FourthActivity.cs" Line="18" Column="29" />
+      <File FileName="AndroidRadioButton/MainActivity.cs" Line="21" Column="10" />
+      <File FileName="../../../../Library/Frameworks/Xamarin.Android.framework/Versions/8.0.2-1/lib/xbuild/Xamarin/Android/Xamarin.Android.Common.targets" Line="1141" Column="15" />
+      <File FileName="AndroidRadioButton/Properties/AssemblyInfo.cs" Line="14" Column="44" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.AndroidRadioButton AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.Android_Accelerated_Nougat" />
+  <MultiItemStartupConfigurations />
+</Properties>

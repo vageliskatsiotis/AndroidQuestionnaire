@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="25px"
+    android:minHeight="25px">
+    <ImageView
+        android:maxWidth="20px"
+        android:maxHeight="10px"
+        android:src="@drawable/logo"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/imageView2" />
+    <TextView
+        android:paddingTop="5px"
+        android:gravity="center"
+        android:text="Ερωτηματολόγιο Ικανοποίησης Πελάτη"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1" />
+    <TextView
+        android:gravity="center"
+        android:text="Η εταιρία ανταποκρίνεται άμεσα σε ερωτήσεις και σε παράπονα που κάνω:"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:layout_marginLeft="0.0dp"
+        android:padding="20px" />
+    <RadioGroup
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioGroup1"
+        android:padding="20px">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="1"
+            android:id="@+id/secone1" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2"
+            android:id="@+id/sectwo1" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3"
+            android:id="@+id/secthree1" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4"
+            android:id="@+id/secfour1" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5"
+            android:id="@+id/secfive1" />
+    </RadioGroup>
+    <TextView
+        android:gravity="center"
+        android:text="Η εταιρία με εξυπηρετεί γρήγορα με τον καλύτερο δυνατό τρόπο:"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:layout_marginLeft="0.0dp"
+        android:padding="20px" />
+    <RadioGroup
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioGroup2"
+        android:padding="20px">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="1"
+            android:id="@+id/secone2" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2"
+            android:id="@+id/sectwo2" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3"
+            android:id="@+id/secthree2" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4"
+            android:id="@+id/secfour2" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5"
+            android:id="@+id/secfive2" />
+    </RadioGroup>
+    <TextView
+        android:gravity="center"
+        android:text="Η εταιρία αποκαθιστά πλήρως προβλήματα / προϊόντα που δεν ανταποκρίνονται στις απαιτήσεις μου εντός μικρού χρονικού διαστήματος:"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView4"
+        android:layout_marginLeft="0.0dp"
+        android:padding="20px" />
+    <RadioGroup
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioGroup3"
+        android:padding="20px">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="1"
+            android:id="@+id/secone3" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2"
+            android:id="@+id/sectwo3" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3"
+            android:id="@+id/secthree3" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4"
+            android:id="@+id/secfour3" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5"
+            android:id="@+id/secfive3" />
+    </RadioGroup>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <Button
+            android:text="Previous"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:id="@+id/secprev" />
+        <Button
+            android:text="Next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:id="@+id/secnext" />
+    </TableRow>
+</LinearLayout>
